@@ -47,7 +47,6 @@ const textNodes = [
     options: [
       {
         text: 'Determining attributes',
-        setState: { blueGoo: true },
         nextText: 2
       },
     ]
@@ -57,12 +56,16 @@ const textNodes = [
     text: 'SKILL, STAMINA AND LUCK: Roll one die. Add 6 to this number and enter this as your Skill attribute. Now roll both dice. Add 12 to the number rolled and enter this as your Stamina attribute. Lastly, roll one , add 6 to this number and enter this as your Luck attribute. Now, do you want to see rules, or do you know how to play? (Rules are also available in the links below the game area.)',
     options: [
       {
-        text: 'I want to see how the game is played.',
+        text: 'I want to see how the game is played.(BROKEN LINK)',
         //create a link that goes to howtoplay.html in new tab
       },
       {
         text: 'I know the rules. Go straight to the game!',
         nextText: 20
+      },
+      {
+        text: 'Take me back to start.',
+        nextText: 1
       },
     ]
   },
