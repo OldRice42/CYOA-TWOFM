@@ -6,11 +6,11 @@
   color: rgb(28, 17, 41);
 }
 
-/*Margin order: Top, Right, Bottom, Left;*/
+/*Margin shortcutorder: Top, Right, Bottom, Left;*/
 
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*Gotham Rounded*/;
 }
 
 body {
@@ -22,6 +22,8 @@ body {
   align-items: center;
   width: 100vw;
   background-color: dimgrey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 .container {
@@ -108,12 +110,15 @@ body {
 }
 
 .btn {
+  /*This one holds the button text styles*/
   background-color: darkslategray;
   border: 1px solid dimgrey(200, 100%, 30%);
   border-radius: 5px;
   padding: 5px 10px;
   color: lightgrey;
   outline: none;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .btn:hover {
@@ -139,7 +144,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: right;
   font-size: 18px;
 }
@@ -164,3 +169,7 @@ a {
   
 }
 */
+
+li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
