@@ -38,9 +38,9 @@ function selectOption(option) {
   }
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
-}
+};
 
-
+/*
 //Example roller
 var dice = {
   sides: 6,
