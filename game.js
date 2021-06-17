@@ -40,7 +40,7 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 };
 
-/*
+
 //Example roller
 var dice = {
   sides: 6,
