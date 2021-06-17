@@ -1,4 +1,4 @@
- body, h1, h2, h3, h4, h5, h6, p, a {
+body, h1, h2, h3, h4, h5, h6, p, a {
   margin: 10;
   font-family: Veranda, sans-serif;
   font-weight: normal;
@@ -21,78 +21,79 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-color: dimgrey;
+  background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
   width: 900px;
   max-width: 80%;
-  background-color: darkslategray;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
   flex-direction: column;
   display: flex;
   align-items: center;
   text-align: center;
   margin: 25px;
+  border-style: solid;
+  border-color: chartreuse;
+  background-color: palegreen;
+}
+
+.container_body {
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  flex-direction: row;
+  display: flex;
+  text-align: left;
+  margin: 25px;
+  background-color: khaki;
+  border-style: solid;
+  border-color: orange;
 }
 
 .container_body-dice {
   width: 800px;
   max-width: 20%;
-  background-color: lightgrey;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
   flex-direction: column;
   display: flex;
   align-items: center;
   text-align: center;
   margin: 25px;
+  border-style: solid;
+  border-color: dodgerblue;
+  background-color: aquamarine;
 }
 
 .container_body-dice-roller {
   width: 800px;
   max-width: 75%;
   max-height: 50%;
-  background-color: green;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
   flex-direction: column;
   display: flex;
   align-items: center;
   text-align: center;
   margin: 25px;
+  background-color: darkorchid;
+  border-style: solid;
+  border-color: indigo;
 }
 
 .container_body-text {
   width: 800px;
   max-width: 80%;
-  background-color: floralwhite;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
   flex-direction: column;
   display: flex;
   text-align: left;
   margin: 25px;
+  background-color: pink;
+  border-style: solid;
+  border-color: palevioletred;
 }
 
-.container_body {
-  width: 800px;
-  max-width: 80%;
-  background-color: floralwhite;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
-  flex-direction: row;
-  display: flex;
-  text-align: left;
-  margin: 25px;
-}
 .container_body-howtoplay {
   width: 800px;
   max-width: 80%;
@@ -109,25 +110,13 @@ body {
 .container_header {
   width: 800px;
   max-width: 80%;
-  background-color: lemonchiffon;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
   flex-direction: column;
   justify-content: center;
   margin: 25px;
-}
-
-.container_footer {
-  width: 800px;
-  max-width: 80%;
-  background-color: seashell;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 25px;
+  background-color: palegoldenrod;
+  border-style: solid;
+  border-color: goldenrod;
 }
 
 .container_menu {
@@ -142,28 +131,43 @@ body {
   margin: 25px;
 }
 
+.container_footer {
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 25px;
+  border-style: solid;
+  border-color: red;
+  background-color: tomato;
+}
+
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   margin-top: 20px;
+  border-style: solid;
+  border-color: seagreen;
+  background-color: springgreen;
 }
 
 .btn {
   /*This one holds the button text styles*/
-  background-color: darkslategray;
-  border: 1px solid dimgrey(200, 100%, 30%);
+  border: 1px solid brown;
+  background-color: coral;
   border-radius: 5px;
   padding: 5px 10px;
-  color: lightgrey;
   outline: none;
-  color: white;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 80%;
 }
 
 .btn:hover {
-  border-color: black;
+  border-color: blue;
+  border-style: solid;
+  background-color: lightskyblue;
 }
 
 /*
