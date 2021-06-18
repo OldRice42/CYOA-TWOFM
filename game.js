@@ -73,6 +73,8 @@ button.onclick = function() {
 
 
 
+
+
 /*
 //Second dice
 var dicetwo = {

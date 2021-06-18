@@ -41,7 +41,7 @@ body {
 
 .container_body {
   width: 800px;
-  max-width: 80%;
+  max-width: 95%;
   padding: 10px;
   flex-direction: row;
   display: flex;
@@ -68,14 +68,16 @@ body {
 
 .container_body-dice-roller {
   width: 800px;
-  max-width: 75%;
-  max-height: 50%;
+  height: 100px;
+  max-width: 90%;
+  max-height: 25%;
   padding: 10px;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 25px;
+  align-content: center;
+  margin: 10px;
   background-color: darkorchid;
   border-style: solid;
   border-color: indigo;
@@ -109,7 +111,7 @@ body {
 
 .container_header {
   width: 800px;
-  max-width: 80%;
+  max-width: 90%;
   padding: 10px;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +164,7 @@ body {
   outline: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  max-width: 80%;
+  max-width: 780;
   margin: 5px;
 }
 
@@ -170,6 +172,25 @@ body {
   border-color: blue;
   border-style: solid;
   background-color: lightskyblue;
+}
+
+.dice_button {
+  background-color: turquoise;
+  border-color: teal;
+  border-style: solid;
+}
+
+.dice_button:hover {
+  border-color: darkred;
+  border-style: solid;
+  background-color: firebrick;
+}
+
+.placeholder {
+  font-size: 50pt;
+  font-weight: bold;
+  color: thistle;
+  margin: 2px;
 }
 
 /*
