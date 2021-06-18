@@ -150,7 +150,7 @@ body {
   margin-top: 20px;
   border-style: solid;
   border-color: seagreen;
-  background-color: springgreen;
+  background-color: springgreen; 
 }
 
 .btn {
@@ -161,7 +161,9 @@ body {
   padding: 5px 10px;
   outline: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
   max-width: 80%;
+  margin: 5px;
 }
 
 .btn:hover {
